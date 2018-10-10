@@ -20,3 +20,4 @@
       command: "kubectl taint nodes --all node-role.kubernetes.io/master-"
       become_user: openfaas
   become: true
+  become_user: openfaas
